@@ -1,0 +1,13 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /dubbopro
+spring:
+    application:
+        name: dubbopro
+#  kafka:
+#    bootstrap-servers: 127.0.0.1:9092
+#    consumer:
+#      properties:
+#        group:
+#          id: kafka-test
