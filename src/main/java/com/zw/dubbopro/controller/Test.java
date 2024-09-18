@@ -21,4 +21,16 @@ public class Test {
 
     // 第二次提交测试一下
     // 第3次提交测试一下
+
+
+    public static void main(String[] args) throws InterruptedException {
+        int i = 0;
+        while (true) {
+            Thread.sleep(500);
+            System.out.println(i++);
+        }
+    }
+
+
+
 }
